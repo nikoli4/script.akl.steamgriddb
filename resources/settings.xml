@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" ?>
+<?xml version="1.0" ?>
 <settings version="1">
-    <section id="script.akl.steamdb">
+    <section id="script.akl.steamgriddb">
         <category id="akl_general" label="30010" help="">
 			<group id="1">
                 <setting id="scraper_steamgriddb_apikey" type="string" label="30101" help="">
@@ -57,7 +57,7 @@
                 </setting>
                 <setting id="akl.scraper.friendlyname" type="string" label="Scraper friendlyname" help="">
                     <level>4</level>
-                    <default>SteamGrid</default>
+                    <default>SteamGridDB</default>
                 </setting>
             </group>
         </category>

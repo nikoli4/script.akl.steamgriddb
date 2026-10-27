@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 #
 # SteamGrid DB Scraper for AKL
 #
@@ -45,7 +45,7 @@ def run_plugin():
     for i in range(len(sys.argv)):
         logger.info(f'sys.argv[{i}] "{sys.argv[i]}"')
 
-    addon_args = addons.AklAddonArguments('script.akl.defaults')
+    addon_args = addons.AklAddonArguments('script.akl.steamgriddb')
     try:
         addon_args.parse()
     except Exception as ex:
